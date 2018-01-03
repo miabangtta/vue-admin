@@ -1,0 +1,23 @@
+header {
+    background-color: $light;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.title{
+    font-size: 28px;
+    justify-content: center;
+}
+
+.logout {
+    margin-left: auto;
+    color: #fff;
+    opacity: .7;
+    transition: .3s;
+
+    &:hover {
+        opacity: 1;
+    }
+}

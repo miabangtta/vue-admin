@@ -1,0 +1,42 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title {
+    margin-bottom: 20px;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 300px;
+}
+
+input, textarea {
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+textarea {
+    resize: none;
+    overflow-y: scroll;
+    width: 500px;
+}
+
+.add-icon {
+    width: 35px;
+    height: 34px; 
+    background: svg('~/img/add.svg', '$fresh') center center no-repeat;
+    display: inline-block;
+
+    &:hover {
+        background-image: svg('~img/add.svg', $fresh) 
+    }
+}
+
+.add-pic {
+    display: inline-block;
+}
